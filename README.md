@@ -9,19 +9,19 @@ This repository provides a reproducible Conda environment for running [GenomicSE
 
 ### 📁 Requirements
 
-- Conda or Mamba installed (via [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/))
+- Conda installed (via [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/))
 - Internet access to download packages
 
 ### 📂 Files Included
 
-- `genomicsem_env.yml` — Conda environment specification file
+- `GenomicSEM.yml` — Conda environment specification file
 
 ### Manual Setup
 
-1. Download `genomicsem_env.yml`
+1. Download `GenomicSEM.yml`
 
 2. Create the Conda environment:
 
    ```bash
-   conda env create -f genomicsem_env.yml -n genomicsem_env
-   conda activate genomicsem_env
+   conda env create -f GenomicSEM.yml -n GenomicSEM
+   conda activate GenomicSEM
