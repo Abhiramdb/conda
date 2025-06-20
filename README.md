@@ -9,7 +9,7 @@ This repository provides a reproducible Conda environment for running [GenomicSE
 
 ### 📁 Requirements
 
-- Conda installed (via [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/))
+- Conda installed
 - Internet access to download packages
 
 ### 📂 Files Included
