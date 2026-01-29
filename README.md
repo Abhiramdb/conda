@@ -28,6 +28,9 @@ Initiate `~/miniconda3/bin/conda init`
 
 `conda activate saige`
 
+## To deactivate conda env 
+`conda deactivate`
+
 ## To delete a conda env 
 
 `conda env remove --name saige`
