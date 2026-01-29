@@ -13,6 +13,7 @@
 ## To install a conda env from yml 
 
 `conda env create -f saige.yml`
+
 `conda activate saige`
 
 ## GenomicSEM Conda Environment Setup
