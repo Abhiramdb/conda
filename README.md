@@ -16,6 +16,10 @@
 
 `conda activate saige`
 
+## To delete a conda env 
+
+`conda env remove --name test`
+
 ## GenomicSEM Conda Environment Setup
 
 This repository provides a reproducible Conda environment for running [GenomicSEM](https://github.com/GenomicSEM/GenomicSEM), a structural equation modeling package for genomic data analysis.
