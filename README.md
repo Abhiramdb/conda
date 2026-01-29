@@ -10,6 +10,11 @@
 ### OR
 `conda env export > saige.yml`
 
+## To install a conda env from yml 
+
+`conda env create -f saige.yml`
+`conda activate saige`
+
 ## GenomicSEM Conda Environment Setup
 
 This repository provides a reproducible Conda environment for running [GenomicSEM](https://github.com/GenomicSEM/GenomicSEM), a structural equation modeling package for genomic data analysis.
