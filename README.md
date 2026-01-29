@@ -8,7 +8,7 @@
 ### Create a .yml file from that environment
 `conda env export --no-builds | grep -v "prefix" > saige.yml`
 ### OR
-`conda env export > gwas_env.yml`
+`conda env export > saige.yml`
 
 ## GenomicSEM Conda Environment Setup
 
