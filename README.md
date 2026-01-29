@@ -18,7 +18,7 @@
 
 ## To delete a conda env 
 
-`conda env remove --name test`
+`conda env remove --name saige`
 
 ## GenomicSEM Conda Environment Setup
 
