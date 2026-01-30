@@ -58,6 +58,12 @@ This repository provides a reproducible Conda environment for running [GenomicSE
 
 2. Create the Conda environment:
 
-   ```bash
+```bash
    conda env create -f GenomicSEM.yml -n GenomicSEM
    conda activate GenomicSEM
+```
+
+## DRUGSETS Conda Environment Setup
+
+This repository provides a reproducible Conda environment for running [GenomicSEM](https://github.com/GenomicSEM/GenomicSEM), a structural equation modeling package for genomic data analysis.
+
