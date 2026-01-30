@@ -65,5 +65,9 @@ This repository provides a reproducible Conda environment for running [GenomicSE
 
 ## DRUGSETS Conda Environment Setup
 
-This repository provides a reproducible Conda environment for running [GenomicSEM](https://github.com/GenomicSEM/GenomicSEM), a structural equation modeling package for genomic data analysis.
+This repository provides a reproducible Conda environment for running [DRUGSETS](https://github.com/nybell/drugsets), a command line interface (CLI) tool implemented in python to perform genetically informed drug repositioning using drug gene set analysis using MAGMA.
+
+```bash
+conda create --name venv_drugsea -c conda-forge python=3.8.5 tqdm=4.62.3 numpy=1.21.1 pandas=1.3.1 scipy=1.7.1 scikit-learn=1.0 matplotlib=3.4.2
+```
 
