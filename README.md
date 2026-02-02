@@ -73,3 +73,16 @@ cp /work/magma ~/miniconda3/envs/venv_drugsea/bin/
 chmod +x ~/miniconda3/envs/venv_drugsea/bin/magma
 ```
 
+## DRUGSETS Conda Environment Setup
+
+This repository provides a reproducible Conda environment for running [Popcorn](https://github.com/brielin/Popcorn), a is a program for estimaing the correlation of causal variant effect.
+
+```bash
+conda create -n popcorn
+git clone https://github.com/brielin/Popcorn.git
+cd Popcorn
+pip install .
+python -m venv popcorn_env
+source popcorn_env/bin/activate
+popcorn -h
+```
