@@ -39,17 +39,14 @@ Initiate `~/miniconda3/bin/conda init`
 
 This repository provides a reproducible Conda environment for running [GenomicSEM](https://github.com/GenomicSEM/GenomicSEM), a structural equation modeling package for genomic data analysis.
 
-### 📦 Environment Name
-
+### Environment Name 
 `genomicsem_env`
 
-### 📁 Requirements
-
+### Requirements
 - Conda installed
 - Internet access to download packages
 
-### 📂 Files Included
-
+### Files Included
 - `GenomicSEM.yml` — Conda environment specification file
 
 ### Manual Setup
