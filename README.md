@@ -66,5 +66,10 @@ This repository provides a reproducible Conda environment for running [DRUGSETS]
 
 ```bash
 conda create --name venv_drugsea -c conda-forge python=3.8.5 tqdm=4.62.3 numpy=1.21.1 pandas=1.3.1 scipy=1.7.1 scikit-learn=1.0 matplotlib=3.4.2
+conda install -c conda-forge r-base r-tidyr=1.1.3 r-dplyr=1.0.7
+
+# need magma in the conda env
+cp /work/magma ~/miniconda3/envs/venv_drugsea/bin/
+chmod +x ~/miniconda3/envs/venv_drugsea/bin/magma
 ```
 
