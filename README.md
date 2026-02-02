@@ -79,6 +79,7 @@ This repository provides a reproducible Conda environment for running [Popcorn](
 
 ```bash
 conda create -n popcorn
+conda activate popcorn
 git clone https://github.com/brielin/Popcorn.git
 cd Popcorn
 pip install .
