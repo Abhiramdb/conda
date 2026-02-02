@@ -1,0 +1,4 @@
+name: popcorn
+channels:
+  - defaults
+prefix: /home/n12193852/miniconda3/envs/popcorn
