@@ -1,4 +1,4 @@
-# conda
+# Conda
 
 ## Install Conda
 
